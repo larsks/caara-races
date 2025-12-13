@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//CAARA Race Schedule//caara.org//
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALDESC:Half Marathon and Marathon Schedule
+X-WR-CALNAME:CAARA Race Schedule 2026 (Happy Holidays Half Marathon)
+BEGIN:VEVENT
+SUMMARY:Happy Holidays Half Marathon
+DTSTART:20261206T130000Z
+DTEND:20261206T160000Z
+DTSTAMP:20251213T151445Z
+UID:0326a64a-8255-550f-a139-bec6f6b6b4df@caara-schedule
+DESCRIPTION:Happy Holidays Half Marathon\nWhen: Dec 06, 2026\n
+ Location: Gloucester, MA\n
+ Start time: 08:00 AM
+LOCATION:Gloucester, MA
+END:VEVENT
+END:VCALENDAR
+

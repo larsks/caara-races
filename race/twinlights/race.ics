@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//CAARA Race Schedule//caara.org//
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALDESC:Half Marathon and Marathon Schedule
+X-WR-CALNAME:CAARA Race Schedule 2026 (Twin Lights Half Marathon)
+BEGIN:VEVENT
+SUMMARY:Twin Lights Half Marathon
+DTSTART:20260503T120000Z
+DTEND:20260503T150000Z
+DTSTAMP:20251213T151445Z
+UID:b3b19e37-63f2-50c4-861f-382d59d4c5ed@caara-schedule
+DESCRIPTION:Twin Lights Half Marathon\nWhen: May 03, 2026\n
+ Location: Glocester, MA\n
+ Start time: 08:00 AM
+LOCATION:Glocester, MA
+END:VEVENT
+END:VCALENDAR
+

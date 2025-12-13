@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <meta name="description" content="Cape Ann Amateur Radio Association provides volunteer radio communication support for races and events in the Cape Ann region of Massachusetts.">
+  <meta name="theme-color" content="#4078c0">
+
+  <!-- Open Graph tags for social sharing -->
+  <meta property="og:title" content="Net control guidelines">
+  <meta property="og:description" content="Cape Ann Amateur Radio Association provides volunteer radio communication support for races and events in the Cape Ann region of Massachusetts.">
+  <meta property="og:type" content="website">
+
+  <title>Net control guidelines</title>
+  <link rel="stylesheet" href="/css/normalize.css">
+  <link rel="stylesheet" href="/css/custom.css">
+</head>
+<body>
+  <header class="site-header">
+    Cape Ann Amateur Radio Association<br>
+    Race &amp; Event Support
+  </header>
+
+  <nav class="site-nav noprint" aria-label="Main navigation">
+    <ul class="nav-main">
+      
+        <li><a href="/">Home</a></li>
+      
+        <li><a href="/races/">Race Schedule</a></li>
+      
+        <li><a href="/docs/">Documentation</a></li>
+      
+    </ul>
+
+    <ul class="nav-external">
+      <li><a href="https://caara.net/">CAARA</a></li>
+    </ul>
+  </nav>
+
+  <div class="page-title">
+    <h1>Net control guidelines</h1>
+  </div>
+
+  <main class="page-content">
+  
+<p>The CAARA race net Net Control operator:</p>
+<ul>
+<li>Runs the <a href="https://caaran.net/">CAARA</a> Race Net as a directed net</li>
+<li>Leads enforcement of protocols and guidelines</li>
+<li>Is the one direct liaison to <a href="https://www.yukanrun.com/">YuKanRun</a> race directors/coordinators</li>
+<li>Shares emergency situation and other important information with YuKanRun Race Director</li>
+<li>Is usually stationed at Start/Finish Line</li>
+<li>Directs movement of CAARA Net personnel, e.g., permission to secure or leave checkpoint, move to new location, or function as Rover</li>
+<li>All radio traffic goes through the net controller who may grant permission for two stations to talk to each other directly if circumstances warrant</li>
+<li>Checks volunteers into and out of Net</li>
+<li>Provides post-race report to CAARA Race Coordinator as needed</li>
+<li>Relays post-race feedback from YuKanRun administrators to the CAARA Race Coordinator</li>
+<li>Must be 100% reliable and clearly copyable at all the assigned locations.</li>
+<li>Must be 100% responsive to communications from stations on the net in a reliable and timely fashion.</li>
+</ul>
+<h2 id="timeline" tabindex="-1">Timeline</h2>
+<table>
+<thead>
+<tr>
+<th>Time (Relative to race start)</th>
+<th>Action</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>-00:30</td>
+<td>Open the net</td>
+</tr>
+<tr>
+<td>-00:25</td>
+<td>Roll call</td>
+</tr>
+<tr>
+<td>-00:07</td>
+<td>Pre-race instructions</td>
+</tr>
+<tr>
+<td>00:00</td>
+<td>Announce start of race</td>
+</tr>
+<tr>
+<td>...</td>
+<td>Handle traffic</td>
+</tr>
+<tr>
+<td>END</td>
+<td>Close the net</td>
+</tr>
+</tbody>
+</table>
+<h2 id="mini-scripts" tabindex="-1">Mini-scripts</h2>
+<h3 id="opening-the-net" tabindex="-1">Opening the net</h3>
+<pre><code>This is &lt;callsign&gt;, net control for the &lt;event name&gt; safety net. We
+are using the &lt;repeater name&gt; repeater, operating on frequency
+&lt;frequency&gt; with a tone of &lt;pl tone&gt;. Before opening the net, if there
+are any stations with emergency or priority traffic for the repeater,
+please call now.
+
+(*pause*)
+
+I am now opening the &lt;event name&gt; safety net. I request that all
+stations not participating as volunteers for this event STAND BY for
+the duration of the net. This is a directed net. Unless you have
+priority traffic, please make no transmissions unless directed to do
+so by net control. This net will operate for approximately the next
+three hours.
+</code></pre>
+<h3 id="roll-call" tabindex="-1">Roll call</h3>
+<pre><code>I will now begin the initial roll call. I will call with your tactical
+callsign. Please respond with your tactical callsign and your personal
+callsign and indicate whether or not you are at your station and ready
+for service.
+
+(* begin roll call; record check-ins on staffing sheet *)
+
+The race will start at &lt;start time&gt;. &lt;callsign&gt;, standing by.
+</code></pre>
+<p>Follow up as necessary if there are stations that don't respond to the initial roll call.</p>
+<h3 id="pre-race-instructions" tabindex="-1">Pre-race instructions</h3>
+<pre><code>This is &lt;callsign&gt; with some pre-race instructions for volunteers
+participating in today's net.
+
+If you have traffic for the net, call net control and identify with
+your tactical callsign, then wait to be acknowledged by net control.
+When net control has confirmed receipt of your message, you can end
+with your callsign to meet FCC requirements.
+
+(* pause *)
+
+Checkpoints report to the net when the lead runner and when the trail
+runner passes their location.  There is no need to include other
+information such as bib number, gender or clothing colors.
+
+Immediately report medical or serious incidents to net control and
+wait for any directions. If there is any delay in reaching net control
+and getting a response, call 911. When reporting an emergency,
+identify your location by street address or by the nearest
+intersection.
+</code></pre>
+<h3 id="start-of-race" tabindex="-1">Start of race</h3>
+<pre><code>This is net control. The half marathon has started at &lt;time&gt;. &lt;Callsign&gt;,
+standing by.
+</code></pre>
+<h3 id="closing-the-net" tabindex="-1">Closing the net</h3>
+<pre><code>This is &lt;callsign&gt;, net control for &lt;event&gt; safety net. At this time,
+the directed net is now closed. I would like to thank all stations who
+participated as volunteers in today's event. I would also like to
+thank all stations who stood by while the net was in service. This
+repeater is now available for regular use. &lt;callsign&gt;, clear.
+</code></pre>
+<h2 id="operating-notes" tabindex="-1">Operating notes</h2>
+<p>Respond to calling stations by repeating what you heard as the station's tactical call:</p>
+<pre><code>This is net control answering checkpoint 5. Go ahead.
+</code></pre>
+<p>After receiving a message, repeat the station's tactical call and repeat or paraphrase the message:</p>
+<pre><code>Net control copied Checkpoint 5. Lead vehicle and lead runner have
+passed Checkpoint 5. net control, &lt;callsign&gt;, standing by.&quot;
+</code></pre>
+<p>Every half hour or so, during a lull in radio traffic, announce that a Directed Net is in progress:</p>
+<pre><code>This is &lt;callsign&gt;, net control for the &lt;event&gt; safety net. A directed
+net is now in progress. I request that all stations not participating
+as volunteers for this event please stand by for the duration of the
+net. This net should be over by &lt;end time&gt;.
+</code></pre>
+<p>As needed, remind stations that they should identify first by tactical callsign, e.g., &quot;checkpoint 6&quot;, and clear using their personal callsign:</p>
+<pre><code>This is net control. Please use your tactical callsign when contacting
+net control and then complete the exchange with your personal
+callsign. &lt;callsign&gt;, standing by.
+</code></pre>
+<p>As needed, remind stations that all traffic must go through net control unless specifically authorized by net control when circumstances warrant:</p>
+<pre><code>This is net control. This is a directed net. Please do not call other
+stations unless explicitly directed to do so by net control. Thank
+you. &lt;callsign&gt;, standing by.
+</code></pre>
+<h2 id="additional-notes" tabindex="-1">Additional Notes</h2>
+<p>CAARA's Safety Team focuses on only the Half-Marathon when there is both a Half-Marathon and a 5K race. The exceptions are:
+The Newburyport races when the CAARA Lead Vehicle leads the 5K and not the Half-Marathon which is led by police. Only the Lead Vehicle needs to be reporting on the 5K. Checkpoints should not report 5K runner progress in order to avoid confusion.</p>
+<p>Runners who can be identified as 5K runners who have made a wrong turn and are lost (or may not know they are lost) should be reported to net control. Net control will advise Race Director and YuKanRun Safety Van (by text group message) .</p>
+<ul>
+<li>Net control should have race documents printed out and available, namely:
+<ul>
+<li>Staffing Sheet and extra copy</li>
+<li>Race Day Info Sheet (especially locations of aid stations and toilets)</li>
+<li>Course map</li>
+</ul>
+</li>
+<li>Net control should review the Staffing Sheet to specifically identify which Checkpoints will see runners going outbound and inbound. This sets up a schedule for securing (releasing) checkpoint personnel.</li>
+<li>Net control should (like all volunteers) read the Volunteer Guidelines before every race. It is helpful for the net controller to have a copy of the Volunteer Guidelines accessible.</li>
+</ul>
+
+
+  </main>
+
+  <footer>
+    Copyright &copy; 2025 Cape Ann Amateur Radio Association |
+    Last modified: 2025-12-13
+    <span class="noprint"> |
+    <a href="https://github.com/larsks/caara-races/blob/main/./content/docs/netcontrol.md?plain=1">View page source</a> |
+    <a href="https://github.com/larsks/caara-races/edit/main/./content/docs/netcontrol.md">Suggest changes</a>
+    </span>
+  </footer>
+</body>
+</html>
